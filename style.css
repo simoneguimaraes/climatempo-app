@@ -1,0 +1,135 @@
+body, button, input, select, textarea {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+:root {
+    --brown-earth: #7c7a88da;
+    --dark-brown: rgb(75, 75, 75);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #111;
+}
+
+.iphone-container .temp-header .text-weather {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.iphone-container .temp-header .text-city-name {
+    font-weight: 600;
+    color: var(--dark-brown);
+    font-size: 14px;
+}
+
+.iphone-container .temp-today .text-temperature {
+    font-size: 80px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+
+.iphone-container {
+    width: 350px;
+    height: 700px;
+    border-radius: 45px;
+    border: 20px solid #111;
+    background: var(--brown-earth);
+    position: relative;
+    color: #111;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 20px 20px;
+}
+
+.iphone-container .notch {
+    width: 180px;
+    height: 25px;
+    background: #111;
+    border-radius: 0 0 30px 30px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 90px);
+}
+
+.iphone-container .iphone-menu {
+    width: 90px;
+    background: var(--dark-brown);
+    height: 2px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 45px);
+}
+
+.iphone-container .top-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.iphone-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iphone-container .header .temp-header {
+    padding-top: 10px;
+
+}
+
+.iphone-container .temp-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+}
+
+.iphone-container .header .temp-today {
+    padding-top: 10px;
+}
+
+.iphone-container .week {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iphone-container .week .day .weekday {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.iphone-container .week .day .temperature {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.iphone-container .footer {
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark-brown);
+}
+
+.iphone-container .footer svg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
