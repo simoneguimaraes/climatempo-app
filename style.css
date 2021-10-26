@@ -24,6 +24,7 @@ body {
     color: #111;
 }
 
+/* fonts */
 .iphone-container .temp-header .text-weather {
     font-weight: 600;
     font-size: 20px;
@@ -38,11 +39,9 @@ body {
 .iphone-container .temp-today .text-temperature {
     font-size: 80px;
     font-weight: 200;
-    margin: 0;
-    padding: 0;
 }
 
-
+/* body */
 .iphone-container {
     width: 350px;
     height: 700px;
@@ -125,6 +124,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: var(--dark-brown);
+    padding: 0 20px;
 }
 
 .iphone-container .footer svg {
